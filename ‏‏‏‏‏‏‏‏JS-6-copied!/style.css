@@ -1,0 +1,38 @@
+:root {
+	--white: #fff;
+	--black: #1c2b2d;
+	--blue: #31326f;
+	--light-blue: #005490;
+	--primary: #9d0191;
+	--sec: #db6400;
+	--grey: #eee;
+	--dark-grey: #222831;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row {
+	height: 100vh;
+}
+body {
+	font-family: sans-serif;
+	background: #ffb980;
+}
+p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+img {
+	width: 100%;
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.coupon {
+	outline: none;
+	border: none;
+}

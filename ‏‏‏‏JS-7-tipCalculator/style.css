@@ -1,0 +1,121 @@
+:root {
+	--white: #fff;
+	--black: #1c2b2d;
+	--blue: #31326f;
+	--light-blue: #005490;
+	--primary: #9d0191;
+	--sec: #db6400;
+	--grey: #eee;
+	--dark-grey: #222831;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+img {
+	width: 100%;
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+section {
+	background: #1c2b2d;
+}
+.calc {
+	width: 40rem;
+	background: var(--grey);
+}
+h2 {
+	font-size: 4rem;
+	text-align: center;
+	background: #000;
+	color: var(--grey);
+	padding: 1rem;
+}
+
+form,
+form > * {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 1.5rem;
+	border-bottom: 2px solid #989898;
+}
+form div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input,
+select {
+	font-size: 1.6rem;
+	padding: 7px;
+	width: 20rem;
+	text-align: right;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+	margin: 5px 0;
+	background: #000;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.btn:hover {
+	background: #6c6b6b;
+}
+
+.error {
+	color: rgb(186, 3, 3);
+	display: none;
+	border-bottom: none;
+}
+.result {
+	width: 90%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.result > * {
+	background: #d1d1d1;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	border-radius: 3px;
+}
+.total {
+	color: rgb(186, 3, 3);
+}
